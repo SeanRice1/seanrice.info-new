@@ -1,0 +1,22 @@
+#expquick {
+    margin-bottom: 8em;
+    margin-top: 5em; 
+}
+
+ul.horizontal-list li{
+    display: inline;
+}
+
+li.horizontal-list {
+    display: inline;
+    float: left;
+}
+
+figure.exp-quick {
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+figure.exp-quick:hover {
+    transform: translate(5px, -5px);
+}
