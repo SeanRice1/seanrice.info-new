@@ -62,7 +62,9 @@ class Intro extends Component {
                       Current:
                                 </p>
                     <figure className="image is-200x75 exp-quick">
-                      <img src='/uw-logo.png' />
+                      <a href="https://www.wisc.edu/" target="__blank">
+                        <img src='/uw-logo.png' />
+                      </a>
                     </figure>
                   </div>
                 </div>
@@ -76,12 +78,16 @@ class Intro extends Component {
                     <ul className='horizontal-list'>
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick">
-                          <img src='/capitalone-logo.png' />
+                          <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
+                            <img src='/capitalone-logo.png' />
+                          </a>
                         </figure>
                       </li>
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick">
-                          <img src='/leidos-logo.png' />
+                          <a href="https://www.leidos.com/" target="__blank">
+                            <img src='/leidos-logo.png' />
+                          </a>
                         </figure>
                       </li>
                     </ul>
