@@ -1,3 +1,9 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+.hello {
+  font-family: Montserrat, sans-serif;
+}
+
 #expquick {
     margin-bottom: 8em;
     margin-top: 5em; 

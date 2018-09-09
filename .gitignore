@@ -1,5 +1,9 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# The compiled bulma css. To recompile just run
+# npm run css-build
+bulma-styles.css
+
 # dependencies
 /node_modules
 

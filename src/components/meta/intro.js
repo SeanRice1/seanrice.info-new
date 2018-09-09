@@ -47,7 +47,7 @@ class Intro extends Component {
         </div>
         <div className="hero-body">
           <div className="container">
-            <h1 className="subtitle is-size-2">
+            <h1 className="subtitle is-size-2 hello">
               Hi im Sean <span>👋</span><br></br> Im a senior at University of Wisconsin, and i have a passion for fullstack development
             </h1>
           </div>
@@ -58,7 +58,7 @@ class Intro extends Component {
               <div className="level-left">
                 <div className="level-item">
                   <div>
-                    <p className="subtitle is-3">
+                    <p className="subtitle is-3 hello">
                       Current:
                                 </p>
                     <figure className="image is-200x75 exp-quick">
@@ -72,7 +72,7 @@ class Intro extends Component {
               <div className="level-right">
                 <div className="level-item">
                   <div>
-                    <p className="subtitle is-3">
+                    <p className="subtitle is-3 hello">
                       Past:
                                 </p>
                     <ul className='horizontal-list'>

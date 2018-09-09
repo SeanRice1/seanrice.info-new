@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styling/index.css';
-import './styling/custom.css'
-import 'bulma/css/bulma.css'
-//import './styling/debug.css';
+import './styling/css/index.css';
+import './styling/css/custom.css'
+import './styling/css/bulma-styles.css'
+//import './styling/css/debug.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
