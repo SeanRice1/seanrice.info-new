@@ -1,12 +1,17 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-.hello {
+.montserrat {
   font-family: Montserrat, sans-serif;
+}
+
+p.montserrat-spaced {
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 2px;
 }
 
 #expquick {
     margin-bottom: 8em;
-    margin-top: 5em; 
+    margin-top: 5em;
 }
 
 ul.horizontal-list li{

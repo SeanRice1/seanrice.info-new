@@ -18,7 +18,7 @@ class Intro extends Component {
 
   render() {
     return (
-      <section className="hero is-success is-fullheight">
+      <section className="hero is-light is-fullheight">
         <div className="hero-head">
           <nav className="navbar">
             <div className="navbar-brand">
@@ -31,13 +31,13 @@ class Intro extends Component {
             <div className="container">
               <div className={this.state.mobileNav ? "navbar-menu is-active" : "navbar-menu"}>
                 <div className="navbar-end">
-                  <a className="navbar-item is-size-4">
+                  <a className="navbar-item is-size-4 montserrat">
                     Experience
                    </a>
-                  <a className="navbar-item is-size-4">
+                  <a className="navbar-item is-size-4 montserrat">
                     Projects
                   </a>
-                  <a className="navbar-item is-size-4">
+                  <a className="navbar-item is-size-4 montserrat">
                     Contact
                   </a>
                 </div>
@@ -47,8 +47,8 @@ class Intro extends Component {
         </div>
         <div className="hero-body">
           <div className="container">
-            <h1 className="subtitle is-size-2 hello">
-              Hi im Sean <span>👋</span><br></br> Im a senior at University of Wisconsin, and i have a passion for fullstack development
+            <h1 className="subtitle is-size-2 montserrat">
+              Hi im Sean <span>👋</span><br></br> Im a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">fullstack development</span>
             </h1>
           </div>
         </div>
@@ -58,7 +58,7 @@ class Intro extends Component {
               <div className="level-left">
                 <div className="level-item">
                   <div>
-                    <p className="subtitle is-3 hello">
+                    <p className="subtitle is-4 is-uppercase montserrat-spaced">
                       Current:
                                 </p>
                     <figure className="image is-200x75 exp-quick">
@@ -72,7 +72,7 @@ class Intro extends Component {
               <div className="level-right">
                 <div className="level-item">
                   <div>
-                    <p className="subtitle is-3 hello">
+                    <p className="subtitle is-4 is-uppercase montserrat-spaced">
                       Past:
                                 </p>
                     <ul className='horizontal-list'>
