@@ -57,6 +57,11 @@ figure.exp-quick:hover {
   transform: translateY(-50%);
 }
 
+div.horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+
 .i-space {
   margin-left: 1em;
   margin-right: 1em;
@@ -69,4 +74,8 @@ figure.exp-quick:hover {
 a.no-dec {
   text-decoration: none;
   color:inherit;
+}
+
+.extra-margin-exp {
+  margin-bottom: 5em;
 }
