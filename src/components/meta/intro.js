@@ -31,13 +31,13 @@ class Intro extends Component {
             <div className="container">
               <div className={this.state.mobileNav ? "navbar-menu is-active" : "navbar-menu"}>
                 <div className="navbar-end">
-                  <a className="navbar-item is-size-4 montserrat">
+                  <a className="navbar-item is-size-4 montserrat" href="#Experience">
                     Experience
                    </a>
-                  <a className="navbar-item is-size-4 montserrat">
+                  <a className="navbar-item is-size-4 montserrat" href="#Project">
                     Projects
                   </a>
-                  <a className="navbar-item is-size-4 montserrat">
+                  <a className="navbar-item is-size-4 montserrat" href="#Footer">
                     Contact
                   </a>
                 </div>
