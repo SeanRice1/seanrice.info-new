@@ -18,7 +18,7 @@ class Intro extends Component {
 
   render() {
     return (
-      <section className="hero is-primary is-fullheight">
+      <section className="hero is-light is-fullheight">
         <div className="hero-head">
           <nav className="navbar">
             <div className="navbar-brand">

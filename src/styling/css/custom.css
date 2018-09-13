@@ -56,3 +56,17 @@ figure.exp-quick:hover {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.i-space {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.fix-env {
+  transform: translate(0, 3px);
+}
+
+a.no-dec {
+  text-decoration: none;
+  color:inherit;
+}

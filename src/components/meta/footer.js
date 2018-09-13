@@ -5,11 +5,21 @@ class Footer extends Component {
     return (
         <footer className="footer">
             <div className="content has-text-centered">
-                <p>
-                    <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-                </p>
+              <a className="no-dec" href="https://github.com/seanrice1">
+                <span class="icon i-space">
+                  <i class="fab fa-3x fa-github"></i>
+                </span>
+              </a>
+              <a className="no-dec" href="https://www.linkedin.com/in/sean-rice/">
+                <span class="icon i-space">
+                  <i class="fab fa-3x fa-linkedin-in"></i>
+                </span>
+              </a>
+              <a className="no-dec" href="mailto:srice3@wisc.edu">
+                <span class="icon i-space fix-env">
+                  <i class="fas fa-3x fa-envelope"></i>
+                </span>
+              </a>
             </div> 
         </footer>
     );
