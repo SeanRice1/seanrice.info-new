@@ -18,7 +18,7 @@ class Intro extends Component {
 
   render() {
     return (
-      <section className="hero is-light is-fullheight">
+      <section className="hero is-primary is-fullheight">
         <div className="hero-head">
           <nav className="navbar">
             <div className="navbar-brand">
@@ -48,7 +48,7 @@ class Intro extends Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="subtitle is-size-2 montserrat">
-              Hi im Sean <span>👋</span><br></br> Im a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">fullstack development</span>
+              Hi im Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> Im a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">fullstack development</span>
             </h1>
           </div>
         </div>
@@ -63,7 +63,7 @@ class Intro extends Component {
                                 </p>
                     <figure className="image is-200x75 exp-quick">
                       <a href="https://www.wisc.edu/" target="__blank">
-                        <img src='/uw-logo.png' />
+                        <img src='/uw-logo.png' alt="UW Madison"/>
                       </a>
                     </figure>
                   </div>
@@ -79,14 +79,14 @@ class Intro extends Component {
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick">
                           <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
-                            <img src='/capitalone-logo.png' />
+                            <img src='/capitalone-logo.png' alt="Capital One"/>
                           </a>
                         </figure>
                       </li>
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick">
                           <a href="https://www.leidos.com/" target="__blank">
-                            <img src='/leidos-logo.png' />
+                            <img src='/leidos-logo.png'  id="fix_leidos_img" alt="Leidos"/>
                           </a>
                         </figure>
                       </li>

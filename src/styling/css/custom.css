@@ -4,7 +4,7 @@
   font-family: Montserrat, sans-serif;
 }
 
-p.montserrat-spaced {
+.montserrat-spaced {
   font-family: Montserrat, sans-serif;
   letter-spacing: 2px;
 }
@@ -30,4 +30,29 @@ figure.exp-quick {
 
 figure.exp-quick:hover {
     transform: translate(5px, -5px);
+}
+
+#fix_leidos_img {
+  transform: translate(0, 10px);
+}
+
+.move {
+  transform: 0.5s;
+}
+
+.move:hover {
+  transform: translate(5px, -5px);
+}
+
+.section-header {
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
