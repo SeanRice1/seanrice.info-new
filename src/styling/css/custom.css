@@ -1,5 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
+html {
+  scroll-behavior: smooth;
+}
+
 .montserrat {
   font-family: Montserrat, sans-serif;
 }

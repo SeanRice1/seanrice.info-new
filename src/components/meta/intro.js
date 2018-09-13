@@ -20,7 +20,7 @@ class Intro extends Component {
     return (
       <section className="hero is-light is-fullheight">
         <div className="hero-head">
-          <nav className="navbar">
+          <nav className="navbar is-transparent">
             <div className="navbar-brand">
               <span className="navbar-burger" onClick={this.toggleNav}>
                 <span></span>
@@ -48,7 +48,7 @@ class Intro extends Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="subtitle is-size-2 montserrat">
-              Hi im Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> Im a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">fullstack development</span>
+              Hi I'm Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> I'm a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">fullstack development</span>
             </h1>
           </div>
         </div>

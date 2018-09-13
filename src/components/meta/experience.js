@@ -34,7 +34,7 @@ export default class Experience extends Component {
           <ExperienceBlock
             company="Biochemistry Research"
             position="Undergraduate Researcher"
-            img="/uw-logo.png"
+            img="/biochem.png"
             tags={["Java", "Git"]}
             description = {[
               "Developed programs using Java to help analyze and organize data into easy to understand spreadsheets for future publication"
