@@ -79,3 +79,7 @@ a.no-dec {
 .extra-margin-exp {
   margin-bottom: 5em;
 }
+
+.button-marg {
+  margin: 1em;
+}
