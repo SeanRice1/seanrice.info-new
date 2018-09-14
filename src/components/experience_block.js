@@ -26,9 +26,9 @@ export default class ExperienceBlock extends Component {
 
     return(
       <div className="extra-margin-exp">
-        <div className="columns is-mobile is-centered">
+        <div className="columns is-centered">
           <div className="column is-one-quarter">
-            <p className="image is-256x256 vertical-center">
+            <p className="image is-256x256 vertical-center is-hidden-mobile">
               <img className="is-rounded" src={this.props.img} alt={this.props.company}/>
               </p>
           </div>

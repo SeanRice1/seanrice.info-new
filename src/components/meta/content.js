@@ -7,13 +7,13 @@ class Content extends Component {
     return (
         <section className="section is-center">
           <div className="container">
-            <div className="columns is-centered">
+            <div className="columns is-centered has-text-centered">
               <h2 className="section-header montserrat-spaced" id="Experience">
                 Experience
               </h2>
             </div>
             <Experience />
-            <div className="columns is-centered">
+            <div className="columns is-centered has-text-centered">
               <h2 className="section-header montserrat-spaced" id="Project">
                 Projects
               </h2>
