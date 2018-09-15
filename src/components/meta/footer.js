@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-        <footer className="footer" id="Footer">
+        <footer className="footer has-background-grey-light" id="Footer">
             <div className="content has-text-centered">
               <a className="no-dec" href="https://github.com/seanrice1">
                 <span className="icon i-space">

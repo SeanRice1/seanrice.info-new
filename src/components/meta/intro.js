@@ -18,7 +18,7 @@ class Intro extends Component {
 
   render() {
     return (
-      <section className="hero is-light is-fullheight">
+      <section className="hero is-light is-bold is-fullheight">
         <div className="hero-head">
           <nav className="navbar is-transparent">
             <div className="navbar-brand">
@@ -47,8 +47,11 @@ class Intro extends Component {
         </div>
         <div className="hero-body">
           <div className="container">
-            <h1 className="subtitle is-size-2 montserrat">
-              Hi I'm Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> I'm a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">fullstack development</span>.
+            <h1 className="subtitle is-size-2 montserrat is-hidden-fullhd">
+              Hi I'm Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> I'm a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">full-stack development</span>.
+            </h1>
+            <h1 className="subtitle is-size-2 montserrat is-hidden-touch is-hidden-desktop-only is-hidden-widescreen-only">
+              Hi I'm Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> I'm a senior at University of Wisconsin, and I have a passion for <br></br><span className="has-text-weight-semibold">full-stack development</span>.
             </h1>
           </div>
         </div>

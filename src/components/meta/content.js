@@ -5,7 +5,7 @@ import Projects from './projects';
 class Content extends Component {
   render() {
     return (
-        <section className="section is-center">
+        <section className="section is-center has-background-grey-ter">
           <div className="container">
             <div className="columns is-centered has-text-centered">
               <h2 className="section-header montserrat-spaced" id="Experience">
