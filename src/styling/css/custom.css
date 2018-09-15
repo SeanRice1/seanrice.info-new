@@ -18,6 +18,17 @@ html {
     margin-top: 5em;
 }
 
+img.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(100%);
+    transition: 0.5s;
+}
+
+img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
 img.expquick {
   padding-right: 1em;
   
