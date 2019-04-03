@@ -70,13 +70,13 @@ class Intro extends Component {
                       </a>
                     </figure>
                     <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
-                      <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
-                        <img className="expquick" src='/uw202.png' alt="Capital One"/>
+                      <a href="https://www.wisc.edu/" target="__blank">
+                        <img className="expquick" src='/uw202.png' alt="UW Madison"/>
                       </a>
                     </figure>
                     <figure className="image is-150x50 exp-quick is-hidden-desktop">
-                      <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
-                        <img className="expquick" src='/uw165.png' alt="Capital One"/>
+                      <a href="https://www.wisc.edu/" target="__blank">
+                        <img className="expquick" src='/uw165.png' alt="UW Madison"/>
                       </a>
                     </figure>
                   </div>
@@ -91,8 +91,8 @@ class Intro extends Component {
                     <ul className='horizontal-list'>
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
-                          <a href="https://www.wisc.edu/" target="__blank">
-                            <img className="expquick grayscale" src='/c1232.png' alt="UW Madison"/>
+                          <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
+                            <img className="expquick grayscale" src='/c1232.png' alt="Capital One"/>
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
@@ -108,18 +108,18 @@ class Intro extends Component {
                       </li>
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
-                          <a href="https://www.wisc.edu/" target="__blank">
-                            <img className="expquick grayscale" src='/leidos238.png' alt="UW Madison" id="fix_leidos_img"/>
+                          <a href="https://www.leidos.com/" target="__blank">
+                            <img className="expquick grayscale" src='/leidos238.png' alt="Leidos" id="fix_leidos_img"/>
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
-                          <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
-                            <img className="expquick grayscale" src='/leidos213.png' alt="Capital One" id="fix_leidos_img"/>
+                          <a href="https://www.leidos.com/" target="__blank">
+                            <img className="expquick grayscale" src='/leidos213.png' alt="Leidos" id="fix_leidos_img"/>
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-desktop">
                           <a href="https://www.leidos.com/" target="__blank">
-                            <img className="expquick grayscale" src='/leidos166.png' alt="Capital One" id="fix_leidos_img"/>
+                            <img className="expquick grayscale" src='/leidos166.png' alt="Leidos" id="fix_leidos_img"/>
                           </a>
                         </figure>
                       </li>
