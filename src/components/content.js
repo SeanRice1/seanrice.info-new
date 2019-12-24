@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Experience from './experience';
-import Projects from './projects';
+import Experience from './experience/experience';
+import Projects from './projects/projects';
 
 class Content extends Component {
   render() {

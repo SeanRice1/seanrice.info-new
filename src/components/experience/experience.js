@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ExperienceBlock from '../experience_block';
+import ExperienceElement from './experience_element';
 
 export default class Experience extends Component {
   render() {
     return (
         <div>
-          <ExperienceBlock
+          <ExperienceElement
             company="Capital One" 
             position="Software Engineering Intern"
             img="/disrupt.png"
@@ -18,7 +18,7 @@ export default class Experience extends Component {
               "Resulted in an estimated 25-30% team-wide reduction in time spent with customer service"
             ]}
             />
-          <ExperienceBlock
+          <ExperienceElement
             company="Leidos" 
             position="Software Engineering Intern"
             img="/ATC.png"
@@ -31,7 +31,7 @@ export default class Experience extends Component {
               "Gained experience with the software development process and enhanced proficiency in C and version control (CVS)"
             ]}
             />
-          <ExperienceBlock
+          <ExperienceElement
             company="Biochemistry Research"
             position="Undergraduate Researcher"
             img="/biochem.png"
