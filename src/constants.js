@@ -7,3 +7,5 @@ export const HEADER_GREET =
     I <span role="img" aria-label="Heart">❤️</span><span className="has-text-weight-semibold"> security and full-stack development</span>.
   </span>
 )
+
+export const C1_JOB_LINK = "https://campus.capitalone.com/technology-program"
