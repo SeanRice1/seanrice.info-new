@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Intro from './components/meta/intro'
-import Content from './components/meta/content'
-import Footer from './components/meta/footer'
+import Intro from './components/header/header'
+import Content from './components/content'
+import Footer from './components/footer/footer'
 
 class App extends Component {
   render() {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HEADER_GREET, C1_JOB_LINK } from '../../constants';
 
 class Intro extends Component {
   constructor(props){
@@ -48,10 +49,10 @@ class Intro extends Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="subtitle is-size-2 montserrat is-hidden-fullhd">
-              Hi I'm Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> I'm a senior at University of Wisconsin, and I have a passion for <span className="has-text-weight-semibold">full-stack development</span>.
+              { HEADER_GREET }
             </h1>
             <h1 className="subtitle is-size-2 montserrat is-hidden-touch is-hidden-desktop-only is-hidden-widescreen-only">
-              Hi I'm Sean <span role="img" aria-label="Wave Hand">👋</span><br></br> I'm a senior at University of Wisconsin, and I have a passion for <br></br><span className="has-text-weight-semibold">full-stack development</span>.
+              { HEADER_GREET }
             </h1>
           </div>
         </div>
@@ -64,21 +65,21 @@ class Intro extends Component {
                     <p className="subtitle is-size-4 is-size-5-touch is-uppercase montserrat-spaced">
                       Current:
                     </p>
-                    <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
-                      <a href="https://www.wisc.edu/" target="__blank">
-                        <img className="expquick" src='/uw244.png' alt="UW Madison"/>
-                      </a>
-                    </figure>
-                    <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
-                      <a href="https://www.wisc.edu/" target="__blank">
-                        <img className="expquick" src='/uw202.png' alt="UW Madison"/>
-                      </a>
-                    </figure>
-                    <figure className="image is-150x50 exp-quick is-hidden-desktop">
-                      <a href="https://www.wisc.edu/" target="__blank">
-                        <img className="expquick" src='/uw165.png' alt="UW Madison"/>
-                      </a>
-                    </figure>
+                      <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
+                        <a href={C1_JOB_LINK} target="__blank">
+                          <img className="expquick" src='/c1232.png' alt="Capital One"/>
+                        </a>
+                      </figure>
+                      <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
+                        <a href={C1_JOB_LINK} target="__blank">
+                          <img className="expquick" src='/c1210.png' alt="Capital One"/>
+                        </a>
+                      </figure>
+                      <figure className="image is-150x50 exp-quick is-hidden-desktop">
+                        <a href={C1_JOB_LINK} target="__blank">
+                          <img className="expquick" src='/c1164.png' alt="Capital One"/>
+                        </a>
+                      </figure>
                   </div>
                 </div>
               </div>
@@ -87,22 +88,22 @@ class Intro extends Component {
                   <div>
                     <p className="subtitle is-4 is-size-5-touch is-uppercase montserrat-spaced">
                       Past:
-                                </p>
+                    </p>
                     <ul className='horizontal-list'>
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
-                          <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
-                            <img className="expquick grayscale" src='/c1232.png' alt="Capital One"/>
+                          <a href="https://www.wisc.edu/" target="__blank">
+                            <img className="expquick grayscale" src='/uw244.png' alt="UW Madison"/>
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
-                          <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
-                            <img className="expquick grayscale" src='/c1210.png' alt="Capital One"/>
+                          <a href="https://www.wisc.edu/" target="__blank">
+                            <img className="expquick grayscale" src='/uw202.png' alt="UW Madison"/>
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-desktop">
-                          <a href="https://campus.capitalone.com/technology-program?id=internship" target="__blank">
-                            <img className="expquick grayscale" src='/c1164.png' alt="Capital One"/>
+                          <a href="https://www.wisc.edu/" target="__blank">
+                            <img className="expquick grayscale" src='/uw165.png' alt="UW Madison"/>
                           </a>
                         </figure>
                       </li>

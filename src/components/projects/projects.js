@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ProjectBlock from '../project_block';
+import ProjectElement from './project_element';
 
 export default class Projects extends Component {
   render() {
     return (
         <div>
-          <ProjectBlock
+          <ProjectElement
             title="AllergyID"
             description={["Android app that alerts users if they are allergic to an item via scanning a barcode, utilizing the Android Vision API and a food database API"]}
             tags={["Java", "XML", "Git"]}

@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "css-build": "node-sass --omit-source-map-url ./src/styling/sass/bulma-styles.scss ./src/styling/css/bulma-styles.css",
@@ -16,7 +16,25 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "bulma": "^0.7.1",
+    "bulma": "^0.8.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "node-sass": "^4.9.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
