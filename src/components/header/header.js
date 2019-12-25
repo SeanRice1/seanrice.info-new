@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import { HEADER_GREET, C1_JOB_LINK } from '../../constants';
 
 class Intro extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
       mobileNav: false,
-    }
+    };
     this.toggleNav = this.toggleNav.bind(this);
   }
 
   toggleNav() {
-    this.setState(prevState => ({
-      mobileNav: !prevState.mobileNav
-    }))
+    this.setState((prevState) => ({
+      mobileNav: !prevState.mobileNav,
+    }));
   }
 
   render() {
