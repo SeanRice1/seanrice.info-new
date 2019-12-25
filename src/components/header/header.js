@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/interactive-supports-focus */
+
 import React, { Component } from 'react';
 import { HEADER_GREET, C1_JOB_LINK } from '../../constants';
 
@@ -18,23 +21,25 @@ class Intro extends Component {
   }
 
   render() {
+    const { mobileNav } = this.state;
+
     return (
       <section className="hero is-light is-bold is-fullheight">
         <div className="hero-head">
           <nav className="navbar is-transparent">
             <div className="navbar-brand">
-              <span className="navbar-burger" onClick={this.toggleNav}>
-                <span></span>
-                <span></span>
-                <span></span>
+              <span className="navbar-burger" onClick={this.toggleNav} role="button">
+                <span />
+                <span />
+                <span />
               </span>
             </div>
             <div className="container">
-              <div className={this.state.mobileNav ? "navbar-menu is-active" : "navbar-menu"}>
+              <div className={mobileNav ? 'navbar-menu is-active' : 'navbar-menu'}>
                 <div className="navbar-end">
                   <a className="navbar-item is-size-4 montserrat" href="#Experience">
                     Experience
-                   </a>
+                  </a>
                   <a className="navbar-item is-size-4 montserrat" href="#Project">
                     Projects
                   </a>
@@ -65,21 +70,21 @@ class Intro extends Component {
                     <p className="subtitle is-size-4 is-size-5-touch is-uppercase montserrat-spaced">
                       Current:
                     </p>
-                      <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
-                        <a href={C1_JOB_LINK} target="__blank">
-                          <img className="expquick" src='/c1232.png' alt="Capital One"/>
-                        </a>
-                      </figure>
-                      <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
-                        <a href={C1_JOB_LINK} target="__blank">
-                          <img className="expquick" src='/c1210.png' alt="Capital One"/>
-                        </a>
-                      </figure>
-                      <figure className="image is-150x50 exp-quick is-hidden-desktop">
-                        <a href={C1_JOB_LINK} target="__blank">
-                          <img className="expquick" src='/c1164.png' alt="Capital One"/>
-                        </a>
-                      </figure>
+                    <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
+                      <a href={C1_JOB_LINK} target="__blank">
+                        <img className="expquick" src="/c1232.png" alt="Capital One" />
+                      </a>
+                    </figure>
+                    <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
+                      <a href={C1_JOB_LINK} target="__blank">
+                        <img className="expquick" src="/c1210.png" alt="Capital One" />
+                      </a>
+                    </figure>
+                    <figure className="image is-150x50 exp-quick is-hidden-desktop">
+                      <a href={C1_JOB_LINK} target="__blank">
+                        <img className="expquick" src="/c1164.png" alt="Capital One" />
+                      </a>
+                    </figure>
                   </div>
                 </div>
               </div>
@@ -89,38 +94,38 @@ class Intro extends Component {
                     <p className="subtitle is-4 is-size-5-touch is-uppercase montserrat-spaced">
                       Past:
                     </p>
-                    <ul className='horizontal-list'>
+                    <ul className="horizontal-list">
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
                           <a href="https://www.wisc.edu/" target="__blank">
-                            <img className="expquick grayscale" src='/uw244.png' alt="UW Madison"/>
+                            <img className="expquick grayscale" src="/uw244.png" alt="UW Madison" />
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
                           <a href="https://www.wisc.edu/" target="__blank">
-                            <img className="expquick grayscale" src='/uw202.png' alt="UW Madison"/>
+                            <img className="expquick grayscale" src="/uw202.png" alt="UW Madison" />
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-desktop">
                           <a href="https://www.wisc.edu/" target="__blank">
-                            <img className="expquick grayscale" src='/uw165.png' alt="UW Madison"/>
+                            <img className="expquick grayscale" src="/uw165.png" alt="UW Madison" />
                           </a>
                         </figure>
                       </li>
                       <li className="horizontal-list">
                         <figure className="image is-200x75 exp-quick is-hidden-desktop-only is-hidden-widescreen-only is-hidden-touch">
                           <a href="https://www.leidos.com/" target="__blank">
-                            <img className="expquick grayscale" src='/leidos238.png' alt="Leidos" id="fix_leidos_img"/>
+                            <img className="expquick grayscale" src="/leidos238.png" alt="Leidos" id="fix_leidos_img" />
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-touch is-hidden-fullhd">
                           <a href="https://www.leidos.com/" target="__blank">
-                            <img className="expquick grayscale" src='/leidos213.png' alt="Leidos" id="fix_leidos_img"/>
+                            <img className="expquick grayscale" src="/leidos213.png" alt="Leidos" id="fix_leidos_img" />
                           </a>
                         </figure>
                         <figure className="image is-150x50 exp-quick is-hidden-desktop">
                           <a href="https://www.leidos.com/" target="__blank">
-                            <img className="expquick grayscale" src='/leidos166.png' alt="Leidos" id="fix_leidos_img"/>
+                            <img className="expquick grayscale" src="/leidos166.png" alt="Leidos" id="fix_leidos_img" />
                           </a>
                         </figure>
                       </li>
@@ -132,7 +137,6 @@ class Intro extends Component {
           </div>
         </div>
       </section>
-
     );
   }
 }
