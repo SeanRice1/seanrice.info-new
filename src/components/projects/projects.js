@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectElement from './project_element';
+import ProjectElement from './projectElement';
 
 const Projects = () => (
   <div>
