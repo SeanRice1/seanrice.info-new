@@ -45,11 +45,11 @@ const ExperienceElement = (props) => {
               {position}
             </div>
             <ul>
-              {description}
+              {descriptionJSX}
             </ul>
             <div className="horizontal-center">
               <div className="tags">
-                {tags}
+                {tagsJSX}
               </div>
             </div>
           </div>
